@@ -63,10 +63,10 @@ int main() {
     Solution obj;
 
     vector<vector<int>> edges1 = {{0, 1}, {0, 2}, {1, 2}, {3, 4}};
-    cout << "Output: " << obj.countCompleteComponent(6, edges1) << endl; // Expected: 3
+    cout << "Output: " << obj.countCompleteComponents(6, edges1) << endl; // Expected: 3
 
     vector<vector<int>> edges2 = {{0, 1}, {0, 2}, {1, 2}, {3, 4}, {3, 5}};
-    cout << "Output: " << obj.countCompleteComponent(6, edges2) << endl; // Expected: 1
+    cout << "Output: " << obj.countCompleteComponents(6, edges2) << endl; // Expected: 1
 
     return 0;
 }

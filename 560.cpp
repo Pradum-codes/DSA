@@ -11,7 +11,7 @@ public:
         unordered_map<int, int> hashT;
         hashT[0] = 1;
 
-        cout << hashT.end() << endl;
+        // cout << hashT.end() << endl;
 
         for(int i : nums){
             sum += i;
