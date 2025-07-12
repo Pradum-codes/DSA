@@ -11,8 +11,6 @@ public:
         unordered_map<int, int> hashT;
         hashT[0] = 1;
 
-        // cout << hashT.end() << endl;
-
         for(int i : nums){
             sum += i;
             if(hashT.find(sum - k) != hashT.end()){
@@ -27,12 +25,31 @@ public:
 
 };
 
+// class Solution {
+// public:
+//     int subarraySum(vector<int>& nums, int k) {
+//         int count = 0;
+//         int n = nums.size();
+//         for(int i = 0; i<n; i++){
+//             int sum = 0;
+//             for(int j = i; j<n; j++){
+//                 sum += nums[j];
+//                 if(sum == k) count++;
+//             }
+//         }
+//         return count;
+//     }
+
+// };
 
 int main() {
+    int n, k;
+    cin >> n >> k;
+    vector<int> arr(n);
+    for(int i = 0; i<n; i++){
+        cin >> arr[i];
+    }
     Solution sol;
-    vector<int> arr;
-    arr = {1,2,3};
-    int k = 3;
     cout << sol.subarraySum(arr, k);
     return 0;
 }
