@@ -23,7 +23,7 @@ A living archive of my journey in mastering algorithms, data structures, and com
 
 | Platform   | Stats |
 |------------|-------|
-| LeetCode   | ![LeetCode Stats](https://leetcard.jacoblin.cool/itz_pmk?theme=dark&font=Karma&ext=contest) |
+| LeetCode   | ![LeetCode Stats](https://leetcard.jacoblin.cool/pradum_kumar_99?theme=dark&font=Karma&ext=contest) |
 | Codeforces | ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=pradum_kumar) |
 
 **Profiles:**  
