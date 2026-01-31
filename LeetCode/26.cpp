@@ -6,33 +6,27 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int left = 0;
-        int right = 1;
-        while(right<nums.size()){
-            if(nums[right] == nums[left]){
-                right++;
-            } else {
-                nums[left+1] = nums[right];
-                left++;
+        int l = 0;
+        int r = 1;
+        while(r<nums.size()) {
+            if(nums[l] == nums[r]){
+                r++;
+            }else{
+                nums[l+1] = nums[r];
+                l++;
             }
         }
-        int count = left;
-        return count+1;
+
+        return l+1;
     }
 };
 
 int main() {
-    int n;
-    cin >> n;
-    vector<int> arr(n);
-    for(int i = 0; i<n; i++){
-        cin >> arr[i];
-    }
-    
+    int n; cin >> n;
+    vector<int> nums(n);
+    for(int i = 0 ; i<n; i++) cin >> nums[i];
+
     Solution sol;
-    cout << "Unique: " << sol.removeDuplicates(arr) << endl;
-    
-    for(int i = 0; i<n; i++){
-        cout << arr[i] << endl;
-    }
+    cout << sol.removeDuplicates(nums) << endl;
+
 }
