@@ -5,9 +5,15 @@ A living archive of my journey in mastering algorithms, data structures, and com
 ---
 
 ## 📚 Repository Structure
-- [LeetCode](./LeetCode) — Solved problems grouped by difficulty
-- [Codeforces](./Codeforces) — Organized by contest type
-- [Concepts](./Concepts) — Topic-wise problems (e.g., DP, Graph, Bit Manipulation)
+- `problems/leetcode` — Solved LeetCode problems
+- `problems/codeforces` — Solved Codeforces problems
+- `problems/misc` — Misc practice problems
+- `concepts/snippets` — Topic-wise code snippets and practice (DSA concepts)
+- `concepts/notes` — Concept notes (short, structured)
+- `notes` — Revision notes index and curated topic writeups
+- `logs` — Monthly study logs
+- `templates` — Reusable templates (concept cards, etc.)
+- `utils` — Shared headers / helpers
 
 ---
 
@@ -16,6 +22,13 @@ A living archive of my journey in mastering algorithms, data structures, and com
 - Java
 - Kotlin
 - JavaScript
+
+---
+
+## 🧭 Quick Start
+1. Add solutions to `problems/leetcode` or `problems/codeforces`.
+2. Add concept notes using the template in `templates/concept-card.md`.
+3. Track progress in `progress.csv` and monthly logs in `logs/`.
 
 ---
 
@@ -32,4 +45,4 @@ A living archive of my journey in mastering algorithms, data structures, and com
 
 ---
 
-_Last Updated: Aug 09, 2025_
+_Last Updated: Feb 03, 2026_
